@@ -10,11 +10,11 @@ document.querySelector(".answer-box button").addEventListener('click',function()
     // console.log(button.textContent);
     if (i%2 !== 0) {
     // navMenu.style.visibility ='hidden'
-    button.textContent = "Show nav"
+    button.textContent = "Hide nav"
     }
     else {
     // navMenu.style.visibility ='visible'
-    button.textContent = "Hide nav"
+    button.textContent = "Show nav"
     }
     // cambiar clases
     navMenu.classList.toggle("nav-menu-hidden")
@@ -46,7 +46,6 @@ var contenedorBotones= document.querySelectorAll(".add-points button")
 var buttonCollection = [...contenedorBotones]
 var cajaMorada = document.querySelector(".total-points")
 
-// console.log(resultante);
 // console.log(buttonCollection);
 function suma (){
 
